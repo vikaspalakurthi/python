@@ -1,0 +1,41 @@
+instances:
+  - name: "server1"
+    ip:
+      - "10.0.0.2"
+      - "192.168.0.2"
+    dns:
+      - "elasticsearch"
+      - "localhost"
+      - "server1.company.com"
+      - "server1"
+
+  - name: "server2"
+    ip:
+      - "10.0.0.3"
+      - "192.168.0.3"
+    dns:
+      - "elasticsearch"
+      - "localhost"
+      - "server2.company.com"
+      - "server2"
+
+  - name: "server3"
+    ip:
+      - "10.0.0.4"
+      - "192.168.0.4"
+    dns:
+      - "elasticsearch"
+      - "localhost"
+      - "server3.company.com"
+      - "server3"
+
+  - name: "server4"
+    ip:
+      - "10.0.0.5"
+      - "192.168.0.5"
+    dns:
+      - "elasticsearch"
+      - "localhost"
+      - "server4.company.com"
+      - "server4"
+
